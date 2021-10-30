@@ -1,0 +1,99 @@
+
+a {
+    text-decoration-line: none;
+}
+body {
+    font-family:'Red Hat Display', tahoma ;
+    text-align: center;
+    margin: 0;
+}
+h5 {
+    position: relative;
+    bottom: 8px;
+}
+#arkaplan {
+    width: 1440px;
+    height: 800px;
+    background-image: url(pattern-background-desktop.png);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#uygulama {
+    background-image: url(illustration-hero.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 20px;
+    height: 650px;
+    width:450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center
+}
+.yazilar {
+    width: 70%;
+    height:auto;
+    
+}
+.baslik {font-weight:bolder}
+.metin {font-weight: 300;}
+#muzikkutu {margin-left: 20px;}
+.odemeplani {
+    width: 80%;
+    height: 90px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    line-height: 5px;
+}
+.odemeplaniyazilar {margin-left: 25px;}
+#changeword {
+    font-weight: bolder;
+    font-size: small;
+    margin-left: 80px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+#changeword:hover {
+    color: hsl(224, 23%, 55%);
+}
+#pay {
+    width:80% ;
+    height: 50px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family:'Red Hat Display', tahoma ;
+    font-weight:bolder;
+    color:white;
+    cursor:pointer;
+    box-shadow:0px 5px 10px hsl(245, 75%, 52%); 
+}
+#pay:hover {
+    background-color:hsl(245, 75%, 70%) ;
+    box-shadow: 0px 5px 10px hsl(245, 75%, 70%);
+}
+#cancel {
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family:'Red Hat Display', tahoma ;
+    font-weight: 900;
+    cursor: pointer;
+    color: grey;
+    
+}
+#cancel:hover {
+    color: black;
+}
